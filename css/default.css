@@ -1,0 +1,144 @@
+/* default stylesheet for a minecraft-y look */
+
+html {
+  /* default to minecraft font */
+  font-family: Minecraft, monospace;
+
+
+  /* parallax scrolling effect */
+  background: #6b2d00 url("../img/styling/background_block.png") repeat fixed center;
+
+}
+
+@font-face {
+  /* load non-web-safe font */
+  font-family: Minecraft;
+  src: url("../fonts/Minecraft.ttf");
+}
+
+body {
+  /* redundant */
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  font-size: 2vw;
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+img {
+  min-width: 40%;
+  margin: 1vw 1vw 1vw 0;
+  border-style: solid;
+  border-width: 20px 20px 20px 20px;
+  -moz-border-image: url("../img/styling/img.png") 64 64 64 64 round round;
+  -webkit-border-image: url("../img/styling/img.png") 64 64 64 64 round round;
+  -o-border-image: url("../img/styling/img.png") 64 64 64 64 round round;
+  border-image: url("../img/styling/img.png") 64 64 64 64 round round;
+}
+
+.sidebyside {
+  display: flex;
+  align-content: flex-start;
+}
+
+/* navbar related styling */
+
+#navbar {
+  font-size: 3vw;
+  margin: 10vw 8vw 0 8vw;
+  border-style: solid;
+  border-width: 2vw;
+  -moz-border-image: url("../img/styling/navbar.png") 48 48 48 48 repeat repeat;
+  -webkit-border-image: url("../img/styling/navbar.png") 48 48 48 48 repeat repeat;
+  -o-border-image: url("../img/styling/navbar.png") 48 48 48 48 repeat repeat;
+  border-image: url("../img/styling/navbar.png") 48 48 48 48 repeat repeat;
+  border-image-outset: 1.5vw;
+  background: #c6c6c6;
+  overflow: hidden;
+}
+
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar a {
+  color: #000000;
+  float: left;
+  padding: 1vw;
+  text-decoration: none;
+  margin: 0 1vw 0 1vw;
+
+  border-style: solid;
+  border-width: 1vw;
+  -moz-border-image: url("../img/styling/navbarA.png") 48 48 48 48 repeat repeat;
+  -webkit-border-image: url("../img/styling/navbarA.png") 48 48 48 48 repeat repeat;
+  -o-border-image: url("../img/styling/navbarA.png") 48 48 48 48 repeat repeat;
+  border-image: url("../img/styling/navbarA.png") 48 48 48 48 repeat repeat;
+  background: #c6c6c6;
+}
+
+#navbar a:hover {
+  border-style: solid;
+  border-width: 1vw;
+  -moz-border-image: url("../img/styling/navbarB.png") 48 48 48 48 repeat repeat;
+  -webkit-border-image: url("../img/styling/navbarB.png") 48 48 48 48 repeat repeat;
+  -o-border-image: url("../img/styling/navbarB.png") 48 48 48 48 repeat repeat;
+  border-image: url("../img/styling/navbarB.png") 48 48 48 48 repeat repeat;
+  background: #c6c6c6;
+}
+
+#navbar a.active {
+  border-style: solid;
+  border-width: 1vw;
+  -moz-border-image: url("../img/styling/navbarB.png") 48 48 48 48 repeat repeat;
+  -webkit-border-image: url("../img/styling/navbarB.png") 48 48 48 48 repeat repeat;
+  -o-border-image: url("../img/styling/navbarB.png") 48 48 48 48 repeat repeat;
+  border-image: url("../img/styling/navbarB.png") 48 48 48 48 repeat repeat;
+  background: #c6c6c6;
+}
+
+/* Map style background */
+
+.text {
+  height: auto;
+  text-align: justify;
+  margin: 9.5vw;
+  border-style: solid;
+  border-width: 6vw;
+  -moz-border-image: url("../img/styling/text.png") 448 448 448 448 round repeat;
+  -webkit-border-image: url("../img/styling/text.png") 448 448 448 448 round repeat;
+  -o-border-image: url("../img/styling/text.png") 448 448 448 448 round repeat;
+  border-image: url("../img/styling/text.png") 448 448 448 448 round repeat;
+  border-image-outset: 3vw;
+  background: #d6be96;
+
+}
+
+/* For lore pages */
+
+.lore {
+  height: auto;
+  text-align: justify;
+  margin: 9.5vw;
+  border-style: solid;
+  border-width: 6vw;
+  -moz-border-image: url("../img/styling/book.png") 440 440 440 440 stretch round;
+  -webkit-border-image: url("../img/styling/book.png") 440 440 440 440 stretch round;
+  -o-border-image: url("../img/styling/book.png") 440 440 440 440 stretch round;
+  border-image: url("../img/styling/book.png") 440 440 440 440 stretch round;
+  border-image-outset: 3vw;
+  background: #fffaee;
+}
+
