@@ -1,15 +1,14 @@
 # humanstxt.org/
-# The humans responsible & technology colophon
 
-# TEAM
+        :::   :::    ::::::::    :::   :::   :::::::::: ::::    ::: ::::::::::: ::::::::   ::::::::  :::::::::  :::::::::: 
+      :+:+: :+:+:  :+:    :+:  :+:+: :+:+:  :+:        :+:+:   :+:     :+:    :+:    :+: :+:    :+: :+:    :+: :+:         
+    +:+ +:+:+ +:+ +:+    +:+ +:+ +:+:+ +:+ +:+        :+:+:+  +:+     +:+    +:+    +:+ +:+        +:+    +:+ +:+          
+   +#+  +:+  +#+ +#+    +:+ +#+  +:+  +#+ +#++:++#   +#+ +:+ +#+     +#+    +#+    +:+ +#++:++#++ +#+    +:+ +#++:++#      
+  +#+       +#+ +#+    +#+ +#+       +#+ +#+        +#+  +#+#+#     +#+    +#+    +#+        +#+ +#+    +#+ +#+            
+ #+#       #+# #+#    #+# #+#       #+# #+#        #+#   #+#+#     #+#    #+#    #+# #+#    #+# #+#    #+# #+#             
+###       ###  ########  ###       ### ########## ###    ####     ###     ########   ########  #########  ##########    
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+Congratulations! You found our humans file!
+This website was completely made by Alfie of www.seriouslyalfie.wtf
+Find me on github at github.com/two-dogs-in-a-trenchcoat
+Thanks!
